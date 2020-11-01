@@ -50,5 +50,8 @@ body {
 
 .change {
   margin-top: 20px;
+}
 
+#picker {
+  margin-left: 20px;
 }

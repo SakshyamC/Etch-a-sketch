@@ -24,8 +24,12 @@ function gridCreater(n) {
         child.style.backgroundColor = "red";
       } else if (document.querySelector("select").value === "white") {
         child.style.backgroundColor = "white";
-      } else {
+      } else if (document.querySelector("select").value === "random") {
         child.style.backgroundColor = "#" + ((1 << 24) * Math.random() | 0).toString(16);
+      } else if (document.querySelector("select").value === "custom") {
+        const picker = document.getElementById("picker")
+        let color = picker.value
+        child.style.backgroundColor = color;
       }
     })
   }

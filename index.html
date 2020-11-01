@@ -4,12 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="icon" href="https://cdn.iconscout.com/icon/premium/png-512-thumb/etch-a-sketch-2217720-1848704.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Etch-A-Sketch</title>
 </head>
 
 <body>
+  <h1 class="head">Etch-A-Sketch</h1>
+  <div class="container"></div>
+
+  <div class="options">
+    <button class="reset">Reset Grid</button>
+
+    <select>
+      <option value="black" id="black">Black</option>
+      <option value="blue" id="blue">Blue</option>
+      <option value="red" id="red">Red</option>
+      <option value="green" id="green">Green</option>
+      <option value="random" id="random">Random</option>
+    </select>
+  </div>
+
+  <div>
+    <button class="change">Change Theme</button>
+  </div>
 
 </body>
+
 <script src="./etch.js"></script>
 
 </html>

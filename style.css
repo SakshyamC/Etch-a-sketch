@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color: cyan;
+  text-align: center;
+}
+
+.theme {
+  background-color:white;
+  color: maroon;
+}
+
+.options {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.reset {
+  margin-right: 20px;
+}
+
+.reset:hover {
+  background-color: white;
+  border: 1px solid #3498db;
+}
+
+#black {
+  background-color: black;
+  color: white;
+}
+
+#random {
+  background-color: darkgoldenrod;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+.container {
+  background-color: white;
+}
+
+.change {
+  margin-top: 20px;
+
+}

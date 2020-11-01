@@ -6,7 +6,7 @@ function gridCreater(n) {
   container.style.gridTemplateRows = `repeat(${n}, auto)`;
   container.style.width = '640px';
   container.style.height = '640px';
-  container.style.margin = 'auto';
+  container.style.margin = `auto`;
 
   for (let i = 0; i < n ** 2; i++) {
     const child = document.createElement('div');

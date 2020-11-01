@@ -22,6 +22,8 @@ function gridCreater(n) {
         child.style.backgroundColor = "green";
       } else if (document.querySelector("select").value === "red") {
         child.style.backgroundColor = "red";
+      } else if (document.querySelector("select").value === "white") {
+        child.style.backgroundColor = "white";
       } else {
         child.style.backgroundColor = "#" + ((1 << 24) * Math.random() | 0).toString(16);
       }
